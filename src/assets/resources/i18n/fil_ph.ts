@@ -438,6 +438,10 @@ export const languages = {
         "total_win": "Total Win",
         "Unexpected_gift_code_error_message": "Nagkaroon ng hindi inaasahang error. Paki-subukan ulit mamaya.",
         "Close": "Isara"
+    },
+    "MissionImpossible": {
+        "game_name": "Ultimate Operation",
+        "game_icon_name": "Ultimate Operation"
     }
 };
 

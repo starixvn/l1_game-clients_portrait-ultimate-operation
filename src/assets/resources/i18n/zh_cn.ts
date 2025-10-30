@@ -438,6 +438,10 @@ export const languages = {
         "total_win": "总奖金",
         "Unexpected_gift_code_error_message": "发生意外错误。请稍后重试。",
         "Close": "关闭"
+    },
+    "MissionImpossible": {
+        "game_name": "终极行动",
+        "game_icon_name": "终极行动"
     }
 };
 

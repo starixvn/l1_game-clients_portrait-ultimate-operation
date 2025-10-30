@@ -291,7 +291,7 @@ export const languages = {
         "title_multiplier": "গুণক",
         "crash_start_in": "শুরু হবে %{time}",
         "crashed": "বিধ্বস্ত",
-        "start": "শুরু করুন",
+        "start": "শুরু",
         "max": "সর্বোচ্চ",
         "stop_auto_bet": "অটো বেট বন্ধ করুন",
         "msg_rotate_to_portrait": "খেলতে আপনার স্ক্রিনটি পোর্ট্রেট মোডে ঘোরান",
@@ -438,6 +438,10 @@ export const languages = {
         "total_win": "মোট জয়",
         "Unexpected_gift_code_error_message": " অপ্রত্যাশিত ত্রুটি ঘটেছে। পরে আবার চেষ্টা করুন।",
         "Close": "বন্ধ"
+    },
+    "MissionImpossible": {
+        "game_name": "আল্টিমেট অপারেশন",
+        "game_icon_name": "আল্টিমেট অপারেশন"
     }
 };
 

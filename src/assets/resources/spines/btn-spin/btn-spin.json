@@ -1,5 +1,5 @@
 {
-"skeleton": { "hash": "Mbrgyxxk30y8CgJlTOoq2vOqG3Q", "spine": "3.8.99" },
+"skeleton": { "hash": "1s63cXgCkFFEXRG3il5OSgvQzrI", "spine": "3.8.99", "images": "./images/", "audio": "D:/L5/MI7/Graphic/slotgame-magicforest/replace-assets/resources/spine/btn-spin" },
 "bones": [
 	{ "name": "root" },
 	{ "name": "button", "parent": "root" },
@@ -9,7 +9,7 @@
 	{ "name": "arrow", "parent": "spin-button" },
 	{ "name": "hover", "parent": "button" },
 	{ "name": "disable-black-overlay", "parent": "button", "rotation": -0.07 },
-	{ "name": "spin-magic", "parent": "button", "scaleX": 0.96, "scaleY": 0.96 },
+	{ "name": "spin-magic", "parent": "button" },
 	{ "name": "blink-total", "parent": "button" },
 	{ "name": "blink", "parent": "blink-total", "x": 45.02, "y": -41.97 },
 	{ "name": "blink2", "parent": "blink-total", "x": 45.02, "y": -41.97 },
@@ -37,22 +37,21 @@
 	{ "name": "light", "bone": "light", "color": "ffffff8b", "blend": "additive" },
 	{ "name": "spin_magic", "bone": "spin-magic" },
 	{ "name": "blink", "bone": "blink" },
-	{ "name": "blink2", "bone": "blink2", "blend": "additive" },
-	{ "name": "blink3", "bone": "blink3", "blend": "additive" },
-	{ "name": "blink4", "bone": "blink4", "blend": "additive" },
-	{ "name": "blink5", "bone": "blink5", "blend": "additive" },
-	{ "name": "blink6", "bone": "blink6", "color": "ffffff3d", "blend": "additive" },
-	{ "name": "blink7", "bone": "blink7", "color": "ffffff3d", "blend": "additive" },
-	{ "name": "blink8", "bone": "blink8", "color": "ffffff3d", "blend": "additive" },
-	{ "name": "blink10", "bone": "blink10", "color": "ffffff3d", "blend": "additive" },
-	{ "name": "blink9", "bone": "blink9", "color": "ffffff3d", "blend": "additive" },
-	{ "name": "blink13", "bone": "blink13", "color": "ffffff3d", "blend": "additive" },
-	{ "name": "blink11", "bone": "blink11", "color": "ffffff3d", "blend": "additive" },
-	{ "name": "blink12", "bone": "blink12", "color": "ffffff3d", "blend": "additive" },
+	{ "name": "blink2", "bone": "blink2" },
+	{ "name": "blink3", "bone": "blink3" },
+	{ "name": "blink4", "bone": "blink4" },
+	{ "name": "blink5", "bone": "blink5" },
+	{ "name": "blink6", "bone": "blink6", "color": "ffffff3d" },
+	{ "name": "blink7", "bone": "blink7", "color": "ffffff3d" },
+	{ "name": "blink8", "bone": "blink8", "color": "ffffff3d" },
+	{ "name": "blink10", "bone": "blink10", "color": "ffffff3d" },
+	{ "name": "blink9", "bone": "blink9", "color": "ffffff3d" },
+	{ "name": "blink13", "bone": "blink13", "color": "ffffff3d" },
+	{ "name": "blink11", "bone": "blink11", "color": "ffffff3d" },
+	{ "name": "blink12", "bone": "blink12", "color": "ffffff3d" },
 	{ "name": "path-blink", "bone": "button" },
 	{ "name": "path-blink2", "bone": "button" },
 	{ "name": "arrow", "bone": "arrow" },
-	{ "name": "arrow-spin", "bone": "arrow" },
 	{ "name": "black-72-disable", "bone": "disable-black-overlay" }
 ],
 "path": [
@@ -73,12 +72,8 @@
 		"name": "default",
 		"attachments": {
 			"arrow": {
-				"arrow": { "width": 118, "height": 118 },
-				"arrow-blur": { "x": 0.5, "width": 118, "height": 118 }
-			},
-			"arrow-spin": {
-				"arrow": { "width": 118, "height": 118 },
-				"arrow-blur": { "x": 0.5, "width": 118, "height": 118 }
+				"arrow": { "width": 158, "height": 158 },
+				"arrow-blur": { "x": 0.5, "width": 158, "height": 158 }
 			},
 			"black-72-disable": {
 				"black-72-disable": { "width": 188, "height": 188 }
@@ -151,13 +146,13 @@
 				}
 			},
 			"spin-button-base-bg": {
-				"spin-button-base-bg": { "width": 182, "height": 182 }
+				"spin-button-base-bg": { "width": 208, "height": 208 }
 			},
 			"spin-button-base-bg2": {
-				"spin-button-base-bg": { "width": 182, "height": 182 }
+				"spin-button-base-bg": { "width": 208, "height": 208 }
 			},
 			"spin_magic": {
-				"spin-logo": { "width": 208, "height": 208 }
+				"spin_magic": { "width": 166, "height": 166 }
 			}
 		}
 	}
@@ -197,11 +192,6 @@
 	"idle": {
 		"slots": {
 			"arrow": {
-				"attachment": [
-					{ "name": "arrow" }
-				]
-			},
-			"arrow-spin": {
 				"attachment": [
 					{ "name": "arrow" }
 				]
@@ -353,14 +343,26 @@
 				"attachment": [
 					{ "name": "spin-button-base-bg" }
 				]
+			},
+			"spin_magic": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "color": "ffffffb4", "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "color": "ffffff97", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3, "color": "ffffffb4", "curve": 0.25, "c3": 0.75 },
+					{ "time": 4, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "spin_magic" }
+				]
 			}
 		},
 		"bones": {
 			"arrow": {
 				"rotate": [
 					{},
-					{ "time": 5.3333, "angle": 180 },
-					{ "time": 12 }
+					{ "time": 2, "angle": 180 },
+					{ "time": 4 }
 				]
 			},
 			"blink": {
@@ -578,17 +580,6 @@
 					{ "time": 1.8333, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
 					{ "time": 3, "x": 1.25, "y": 1.25 }
 				]
-			},
-			"spin-magic": {
-				"rotate": [
-					{ "time": 1 },
-					{ "time": 1.1333, "angle": -1.74 },
-					{ "time": 1.2667, "angle": -1.66 },
-					{ "time": 1.4, "angle": -4.22 },
-					{ "time": 1.5333, "angle": -4 },
-					{ "time": 1.6667, "angle": -10.75 },
-					{ "time": 4 }
-				]
 			}
 		},
 		"path": {
@@ -609,16 +600,10 @@
 	"spin": {
 		"slots": {
 			"arrow": {
-				"color": [
-					{ "color": "ffffffff" },
-					{ "time": 0.4667, "color": "ffffff00", "curve": "stepped" },
-					{ "time": 0.8667, "color": "ffffff00" },
-					{ "time": 1, "color": "ffffffff" }
-				]
-			},
-			"arrow-spin": {
 				"attachment": [
-					{ "name": "arrow-blur" }
+					{ "name": "arrow" },
+					{ "time": 0.1333, "name": "arrow-blur" },
+					{ "time": 0.8667, "name": "arrow" }
 				]
 			},
 			"light": {
@@ -644,9 +629,8 @@
 				]
 			},
 			"spin_magic": {
-				"color": [
-					{ "color": "ffffffff" },
-					{ "time": 0.2, "color": "ffffff00" }
+				"attachment": [
+					{ "name": "spin_magic" }
 				]
 			}
 		},
@@ -654,11 +638,14 @@
 			"arrow": {
 				"rotate": [
 					{},
-					{ "time": 0.2333, "angle": 180 },
-					{ "time": 0.4 },
+					{ "time": 0.1333, "angle": 180 },
+					{ "time": 0.2333 },
+					{ "time": 0.3667, "angle": 180 },
+					{ "time": 0.5 },
 					{ "time": 0.6, "angle": 180 },
-					{ "time": 0.8333 },
-					{ "time": 1, "angle": 180 }
+					{ "time": 0.7333 },
+					{ "time": 0.8667, "angle": 180 },
+					{ "time": 1 }
 				],
 				"scale": [
 					{ "time": 0.1333 },

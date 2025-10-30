@@ -310,9 +310,9 @@ export const languages = {
         "pop_over_on_loss_increase_by": "Tăng tiền cược của bạn theo một tỷ lệ phần trăm nhất định khi bạn thua.",
         "pop_over_on_loss_example": "(Ví dụ: Đặt +50% → Bắt đầu với $10 → thua → lần đặt cược tiếp theo $15).",
         "auto_bet_warning": "Bật Tự Động Cược đồng nghĩa với việc người chơi tự chịu trách nhiệm, nhà cung cấp không chịu trách nhiệm cho bất kỳ kết quả nào",
-        "hot_key_enable": "Đã bật Hotkeys",
+        "hot_key_enable": "Đã bật phím tắt",
         "pop_over_demo_mode": "Cược 0 sẽ kích hoạt chế độ chơi thử",
-        "hot_key_disable": "Đã tắt phím nóng"
+        "hot_key_disable": "Đã tắt phím tắt"
     },
     "Classicslot": {
         "auto_spin": "Tự Quay",
@@ -438,6 +438,10 @@ export const languages = {
         "total_win": "Tổng Thắng",
         "Unexpected_gift_code_error_message": "Đã xảy ra lỗi. Vui lòng thử lại sau.",
         "Close": "Đóng"
+    },
+    "MissionImpossible": {
+        "game_name": "Chiến Dịch Tối Thượng",
+        "game_icon_name": "Chiến Dịch Tối Thượng"
     }
 };
 

@@ -438,6 +438,10 @@ export const languages = {
         "total_win": "合計勝利額",
         "Unexpected_gift_code_error_message": "予期せぬエラーが発生しました。後ほどもう一度お試しください。",
         "Close": "閉じる"
+    },
+    "MissionImpossible": {
+        "game_name": "Ultimate Operation",
+        "game_icon_name": "Ultimate Operation"
     }
 };
 

@@ -438,6 +438,10 @@ export const languages = {
         "total_win": "Jumlah Kemenangan",
         "Unexpected_gift_code_error_message": "Ralat tak dijangka berlaku. Sila cuba lagi kemudian.",
         "Close": "Tutup"
+    },
+    "MissionImpossible": {
+        "game_name": "Operasi Terunggul",
+        "game_icon_name": "Operasi Terunggul"
     }
 };
 
