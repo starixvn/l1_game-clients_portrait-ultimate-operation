@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "By enabling Auto Bet, players accept full responsibility for its use, and the game provider assumes no liability for any results.",
         "hot_key_enable": "Hotkeys Enabled",
         "pop_over_demo_mode": "Bet 0 will activate Demo Mode",
-        "hot_key_disable": "Hotkeys Disabled"
+        "hot_key_disable": "Hotkeys Disabled",
+        "balance": "Balance",
+        "num_of_auto_play": "Number of Auto-Play"
     },
     "Classicslot": {
         "auto_spin": "Auto Spin",

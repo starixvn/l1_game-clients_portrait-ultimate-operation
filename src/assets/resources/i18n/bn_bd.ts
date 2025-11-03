@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "স্ক্রিপ্টের ব্যবহার ঐচ্ছিক এবং খেলোয়াড়দের যেকোন সম্ভাব্য ঝুঁকির জন্য সম্পূর্ণ দায়িত্ব নিতে হবে। আমরা এই ব্যাপারে দায়ী থাকব না।",
         "hot_key_enable": "হটকি সক্রিয় করা হয়েছে",
         "pop_over_demo_mode": "বেট 0 ডেমো মোড সক্রিয় করবে",
-        "hot_key_disable": "হটকী নিষ্ক্রিয় করা হয়েছে"
+        "hot_key_disable": "হটকী নিষ্ক্রিয় করা হয়েছে",
+        "balance": "ব্যালেন্স",
+        "num_of_auto_play": "অটো-প্লে সংখ্যা:"
     },
     "SummerHeat": {
         "game_name": "Summer Heat",

@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "Dengan mendayakan Auto Bet, pemain menerima tanggungjawab penuh untuk penggunaannya, dan pembekal permainan tidak bertanggungjawab terhadap sebarang keputusan.",
         "hot_key_enable": "Kekunci Pintas Didayakan",
         "pop_over_demo_mode": "Taruhan 0 akan mengaktifkan Mod Demo",
-        "hot_key_disable": "Kekunci Pintas Dilumpuhkan"
+        "hot_key_disable": "Kekunci Pintas Dilumpuhkan",
+        "balance": "BALANCE",
+        "num_of_auto_play": "Bilangan Auto-Main:"
     },
     "SummerHeat": {
         "game_name": "Summer Heat",

@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "Auto Betを有効にすると、プレイヤーはその使用に関するすべての責任を負い、ゲームプロバイダーはいかなる結果に対しても責任を負いません。",
         "hot_key_enable": "ホットキー有効",
         "pop_over_demo_mode": "ベット 0 でデモモードが有効になります",
-        "hot_key_disable": "ホットキーは無効です"
+        "hot_key_disable": "ホットキーは無効です",
+        "balance": "残高",
+        "num_of_auto_play": "オートプレイ回数:"
     },
     "Classicslot": {
         "auto_spin": "オートスピン",

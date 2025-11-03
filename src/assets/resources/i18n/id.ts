@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "Dengan mengaktifkan Auto Bet, pemain menerima tanggung jawab penuh atas penggunaannya, dan penyedia game tidak bertanggung jawab atas hasil apa pun.",
         "pop_over_demo_mode": "Taruhan 0 akan mengaktifkan Mode Demo",
         "hot_key_enable": "Hotkeys Diaktifkan",
-        "hot_key_disable": "Tombol Pintas Dinonaktifkan"
+        "hot_key_disable": "Tombol Pintas Dinonaktifkan",
+        "balance": "saldo ",
+        "num_of_auto_play": "Jumlah Auto-Play:"
     },
     "Classicslot": {
         "auto_spin": "Auto Putar",

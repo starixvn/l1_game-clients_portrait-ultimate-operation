@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "Auto Bet को सक्षम करने पर, खिलाड़ी इसके उपयोग के लिए पूरी जिम्मेदारी स्वीकार करते हैं, और गेम प्रदाता किसी भी परिणाम के लिए कोई दायित्व नहीं लेता है।",
         "hot_key_enable": "हॉटकी सक्षम की गई हैं",
         "pop_over_demo_mode": "शर्त 0 डेमो मोड को सक्रिय करेगा",
-        "hot_key_disable": "हॉटकी अक्षम की गई"
+        "hot_key_disable": "हॉटकी अक्षम की गई",
+        "balance": "बैलेंस",
+        "num_of_auto_play": "ऑटो-प्ले की संख्या:"
     },
     "SummerHeat": {
         "game_name": "Summer Heat",

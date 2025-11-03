@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "Auto Bet을 활성화하면 플레이어는 사용에 대한 모든 책임을 지며, 게임 제공자는 결과에 대해 어떠한 책임도 지지 않습니다.",
         "hot_key_enable": "핫키 활성화됨",
         "pop_over_demo_mode": "0을 베팅하면 데모 모드가 활성화됩니다.",
-        "hot_key_disable": "단축키 비활성화됨"
+        "hot_key_disable": "단축키 비활성화됨",
+        "balance": "잔액",
+        "num_of_auto_play": "자동 플레이 횟수:"
     },
     "SummerHeat": {
         "game_name": "여름 열기",
