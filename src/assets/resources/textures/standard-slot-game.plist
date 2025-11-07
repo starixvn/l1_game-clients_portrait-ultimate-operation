@@ -249,15 +249,15 @@
                 <key>aliases</key>
                 <array/>
                 <key>spriteOffset</key>
-                <string>{0,-2}</string>
+                <string>{1,-2}</string>
                 <key>spriteSize</key>
-                <string>{68,70}</string>
+                <string>{70,70}</string>
                 <key>spriteSourceSize</key>
                 <string>{100,100}</string>
                 <key>textureRect</key>
-                <string>{{570,179},{68,70}}</string>
+                <string>{{570,179},{70,70}}</string>
                 <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>symbol-2-blur.png</key>
             <dict>
@@ -573,7 +573,7 @@
             <key>size</key>
             <string>{1024,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:62b42570b20642434a7ed72c740832fc:ab46c4c854e990ff1b4357e8d93c4f00:3c13b940d52c931d845dbb5c93af3d66$</string>
+            <string>$TexturePacker:SmartUpdate:5e8da01b14ea2e9f089b2d9f064c3f70:33ab6db2fd2957eb4ee99ddc56ab132b:3c13b940d52c931d845dbb5c93af3d66$</string>
             <key>textureFileName</key>
             <string>standard-slot-game.webp</string>
         </dict>
