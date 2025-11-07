@@ -523,7 +523,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 110,
+      "y": 240,
       "z": 0
     },
     "_lrot": {
@@ -639,7 +639,7 @@
     "_target": null,
     "_left": 0,
     "_right": 0,
-    "_top": 0,
+    "_top": -0.26,
     "_bottom": 0,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
@@ -1975,9 +1975,9 @@
     ],
     "value": {
       "__type__": "cc.Color",
-      "r": 41,
-      "g": 224,
-      "b": 90,
+      "r": 255,
+      "g": 154,
+      "b": 54,
       "a": 255
     }
   },
@@ -1997,8 +1997,8 @@
     ],
     "value": {
       "__type__": "cc.Color",
-      "r": 36,
-      "g": 164,
+      "r": 234,
+      "g": 107,
       "b": 0,
       "a": 255
     }
@@ -2053,7 +2053,7 @@
     "propertyPath": [
       "_shadowBlur"
     ],
-    "value": 5
+    "value": 0
   },
   {
     "__type__": "cc.UITransform",

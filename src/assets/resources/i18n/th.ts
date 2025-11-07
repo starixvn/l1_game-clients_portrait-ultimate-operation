@@ -312,7 +312,9 @@ export const languages = {
         "auto_bet_warning": "เมื่อเปิดใช้งาน Auto Bet ผู้เล่นยอมรับความรับผิดชอบอย่างเต็มที่สำหรับการใช้งาน และผู้ให้บริการเกมจะไม่รับผิดชอบต่อผลลัพธ์ใดๆ",
         "hot_key_enable": "เปิดใช้งาน Hotkeys",
         "pop_over_demo_mode": "เดิมพัน 0 จะเปิดใช้งานโหมดทดลองเล่น",
-        "hot_key_disable": "ปิดใช้งานปุ่มลัด"
+        "hot_key_disable": "ปิดใช้งานปุ่มลัด",
+        "balance": "ยอดคงเหลือ",
+        "num_of_auto_play": "จำนวนการ เล่นอัตโนมัติ:"
     },
     "Classicslot": {
         "auto_spin": "สปินอัตโนมัติ",
@@ -438,6 +440,10 @@ export const languages = {
         "total_win": "ยอดชนะรวม",
         "Unexpected_gift_code_error_message": "เกิดข้อผิดพลาดที่ไม่คาดคิด โปรดลองอีกครั้งในภายหลัง",
         "Close": "ปิด"
+    },
+    "MissionImpossible": {
+        "game_name": "ปฏิบัติการขั้นสูงสุด",
+        "game_icon_name": "ปฏิบัติการ\nสุดท้าย"
     }
 };
 

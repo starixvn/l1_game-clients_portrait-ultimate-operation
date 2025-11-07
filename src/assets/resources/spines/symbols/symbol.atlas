@@ -1,0 +1,146 @@
+
+symbol.webp
+size: 1112,283
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+symbol-0
+  rotate: false
+  xy: 151, 135
+  size: 146, 146
+  orig: 150, 150
+  offset: 2, 2
+  index: -1
+symbol-1
+  rotate: false
+  xy: 897, 4
+  size: 142, 144
+  orig: 146, 148
+  offset: 2, 2
+  index: -1
+symbol-10
+  rotate: false
+  xy: 147, 7
+  size: 121, 122
+  orig: 150, 150
+  offset: 16, 13
+  index: -1
+symbol-2
+  rotate: false
+  xy: 2, 131
+  size: 147, 150
+  orig: 151, 154
+  offset: 2, 2
+  index: -1
+symbol-3
+  rotate: false
+  xy: 758, 4
+  size: 137, 138
+  orig: 141, 142
+  offset: 2, 2
+  index: -1
+symbol-4
+  rotate: true
+  xy: 377, 2
+  size: 135, 138
+  orig: 139, 142
+  offset: 2, 2
+  index: -1
+symbol-5
+  rotate: true
+  xy: 754, 144
+  size: 137, 140
+  orig: 141, 144
+  offset: 2, 2
+  index: -1
+symbol-6
+  rotate: true
+  xy: 610, 3
+  size: 137, 146
+  orig: 141, 150
+  offset: 2, 2
+  index: -1
+symbol-7
+  rotate: true
+  xy: 270, 5
+  size: 128, 105
+  orig: 150, 150
+  offset: 20, 24
+  index: -1
+symbol-7-glitch
+  rotate: false
+  xy: 2, 11
+  size: 143, 118
+  orig: 150, 150
+  offset: 2, 13
+  index: -1
+symbol-8
+  rotate: true
+  xy: 517, 2
+  size: 135, 91
+  orig: 150, 150
+  offset: 8, 30
+  index: -1
+symbol-8-glitch
+  rotate: false
+  xy: 451, 139
+  size: 150, 142
+  orig: 150, 150
+  offset: 0, 8
+  index: -1
+symbol-9
+  rotate: false
+  xy: 299, 139
+  size: 150, 142
+  orig: 150, 150
+  offset: 0, 7
+  index: -1
+symbol-9-glitch
+  rotate: false
+  xy: 603, 142
+  size: 149, 139
+  orig: 150, 150
+  offset: 0, 7
+  index: -1
+text
+  rotate: true
+  xy: 1067, 154
+  size: 127, 33
+  orig: 150, 150
+  offset: 16, 17
+  index: -1
+text-bonus
+  rotate: true
+  xy: 1031, 150
+  size: 131, 34
+  orig: 150, 150
+  offset: 10, 16
+  index: -1
+text-bonus-glitch
+  rotate: true
+  xy: 1041, 5
+  size: 143, 34
+  orig: 150, 150
+  offset: 4, 16
+  index: -1
+text-freespin
+  rotate: true
+  xy: 963, 161
+  size: 120, 66
+  orig: 150, 150
+  offset: 15, 5
+  index: -1
+text-freespin-glitch
+  rotate: true
+  xy: 896, 150
+  size: 131, 65
+  orig: 150, 150
+  offset: 9, 5
+  index: -1
+text-glitch
+  rotate: true
+  xy: 1077, 14
+  size: 138, 33
+  orig: 150, 150
+  offset: 10, 17
+  index: -1
