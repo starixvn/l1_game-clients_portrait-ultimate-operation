@@ -346,7 +346,7 @@
     "_overflow": 2,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "b693e75c-9c41-4dfb-b9b2-bc2f6c00ffcb",
+      "__uuid__": "c2c3de60-ca6d-485e-b66d-64d4d195a9a1",
       "__expectedType__": "cc.BitmapFont"
     },
     "_isSystemFontUsed": false,
@@ -619,8 +619,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 978.7500000000001,
-      "height": 1743.75
+      "width": 870.0000000000001,
+      "height": 1550
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
